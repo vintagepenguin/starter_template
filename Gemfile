@@ -39,6 +39,12 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'pry-nav', :group => [ :development, :test ]
+
+group :test do
+  gem 'rspec-pride'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
