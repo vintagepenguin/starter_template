@@ -6,12 +6,9 @@ gem 'rails', '4.0.2'
 # Public Gems
 gem 'pg'
 gem 'devise'
-gem 'pry-nav'
-
 
 # TO ADD
 # gem 'cancan'
-
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc1'
